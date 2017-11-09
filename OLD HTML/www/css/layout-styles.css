@@ -1,0 +1,206 @@
+html,body {
+  height: 100%;
+}
+
+* {
+    -moz-box-sizing: border-box;
+}
+
+body {
+  background-color: #EFEFEF;
+  color: #424242;
+  margin: 0;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+  line-height:1.428571429;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:normal;line-height:1.1;color:#333}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{font-weight:normal;line-height:1}
+h1,.h1{font-size:45px;line-height:48px}
+h2,.h2{font-size:36px;line-height:42px}
+h3,.h3{font-size:28px;line-height:36px}
+h4,.h4{font-size:24px;line-height:25px}
+h5,.h5{font-size:20px;line-height:24px}
+h6,.h6{font-size:18px;line-height:24px}
+
+a{
+  color:#FFFFFF;
+  padding-left:2.5em;
+  padding-right:2.5em;}
+  
+a:hover,a:focus{
+  color:#E0E6F8;
+  text-decoration:bold}
+  
+a.bodylink{
+  color:#424242;
+  padding-left:0em;
+  padding-right:0em;}
+  
+a.bodylink:hover,a.bodylink:focus{
+  color:#A9BCF5;
+  text-decoration:bold;}
+  
+a.newsflash{
+  color:#FF0000;
+  padding-left:0em;
+  padding-right:0em;
+  text-decoration:bold;}
+  
+a.newsflash:hover,a.newsflash:focus{
+  color:#AA0000;
+  text-decoration:bold;}
+
+.text-center{text-align:center}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+    
+.wrap {
+  min-height: 100%;
+  .display: table;
+  .height: 100%;
+}
+
+.top-bar {
+      height: 60px;
+      background: #000000;
+      background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.4), rgba(0,0,0,1))); /*Safari*/
+      background: -o-linear-gradient(top,rgbargba(0,0,0,0.4), rgba(0,0,0,1)); /*Opera 11-12*/
+      background: -moz-linear-gradient(top,rgba(0,0,0,0.4), rgba(0,0,0,1)); /*Fx 3.6-15*/
+      background: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,1)); /*Standard*/
+    }
+    
+    .top-bar-text {
+      padding: 20px;
+    }
+
+:root .top-bar {
+  filter: none \0/IE9;
+}
+
+.left-align {
+  text-align: left;
+  padding: 10px;
+  overflow: auto;
+  padding-bottom: 60px;}
+  
+.newsflash {
+  text-align:center;
+  vertical-align: text-top;
+  padding-bottom: 10px;
+  color: #ff0000;
+  margin: 0;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+  line-height:1.428571429;}
+
+.welcome-container {
+  width: 500px;
+  margin: 0 auto;
+  overflow: auto;
+  padding-bottom: 60px;
+}
+
+.coming-soon-wrap {
+  margin-top: 90px;
+}
+
+.frowny-face {
+  text-align: center;
+  font-size: 130px;
+  color: #919191;
+  line-height: 1.1;
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+
+.welcome-container h1 {
+  margin-bottom: 1em;
+}
+
+.btn-primary {
+    background-color: #7FB141;
+    border-color: #648C33;
+    color: #FFFFFF;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent;
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 0 0 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 8px 20px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #7FB141;
+    border-color: #648C33;
+    color: #FFFFFF;
+}
+
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active {
+    background-color: #729E3A;
+    border-color: #496626;
+    color: #fff;
+}
+
+.btn:hover, 
+.btn:focus {
+    text-decoration: none;
+}
+
+.login-container {
+  text-align: right;
+  margin: 20px;
+}
+
+.footer {
+  position: relative;
+  margin-top: -60px; /* negative value of footer height */
+  height: 60px;
+  clear:both;
+  text-align: center;
+  font-size: 14px;
+}
